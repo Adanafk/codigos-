@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main()
+{
+ float a, b, c,r1,r2,r3,r4;
+ printf("ingresa los valores para a\n b\n c\n");
+ scanf("%f",&a);
+ scanf("%f",&b);
+ scanf("%f",&c);
+
+
+r3=pow(b,2);
+r4=(4*a*c);
+r1=(-b+(sqrt(r4)/(2*a)));
+ r2=(-b-(sqrt(r4)/(2*a)));
+
+ printf( " el resultado para x1 es\a %f",r1);
+ printf( " el resultado para x2 es\a %f",r2);
+}
